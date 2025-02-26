@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.example.MiniProject1.MiniProject1ApplicationTests" time="1.617" tests="27" errors="2" skipped="0" failures="3">
+  <properties>
+    <property name="http.proxyHost" value="localhost"/>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/ahmedfarahat/Downloads/Mini-Project1-Base-main/target/test-classes:/Users/ahmedfarahat/Downloads/Mini-Project1-Base-main/target/classes:/Users/ahmedfarahat/.m2/repository/org/springframework/boot/spring-boot-starter-data-rest/3.4.1/spring-boot-starter-data-rest-3.4.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/data/spring-data-rest-webmvc/4.4.1/spring-data-rest-webmvc-4.4.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/data/spring-data-rest-core/4.4.1/spring-data-rest-core-4.4.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/spring-tx/6.2.1/spring-tx-6.2.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/hateoas/spring-hateoas/2.4.1/spring-hateoas-2.4.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/data/spring-data-commons/3.4.1/spring-data-commons-3.4.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/plugin/spring-plugin-core/3.0.0/spring-plugin-core-3.0.0.jar:/Users/ahmedfarahat/.m2/repository/org/atteo/evo-inflector/1.3/evo-inflector-1.3.jar:/Users/ahmedfarahat/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.4.1/spring-boot-starter-web-3.4.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/boot/spring-boot-starter/3.4.1/spring-boot-starter-3.4.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.4.1/spring-boot-starter-logging-3.4.1.jar:/Users/ahmedfarahat/.m2/repository/ch/qos/logback/logback-classic/1.5.12/logback-classic-1.5.12.jar:/Users/ahmedfarahat/.m2/repository/ch/qos/logback/logback-core/1.5.12/logback-core-1.5.12.jar:/Users/ahmedfarahat/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.24.3/log4j-to-slf4j-2.24.3.jar:/Users/ahmedfarahat/.m2/repository/org/apache/logging/log4j/log4j-api/2.24.3/log4j-api-2.24.3.jar:/Users/ahmedfarahat/.m2/repository/org/slf4j/jul-to-slf4j/2.0.16/jul-to-slf4j-2.0.16.jar:/Users/ahmedfarahat/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/Users/ahmedfarahat/.m2/repository/org/yaml/snakeyaml/2.3/snakeyaml-2.3.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.4.1/spring-boot-starter-json-3.4.1.jar:/Users/ahmedfarahat/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.18.2/jackson-datatype-jdk8-2.18.2.jar:/Users/ahmedfarahat/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.18.2/jackson-datatype-jsr310-2.18.2.jar:/Users/ahmedfarahat/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.18.2/jackson-module-parameter-names-2.18.2.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.4.1/spring-boot-starter-tomcat-3.4.1.jar:/Users/ahmedfarahat/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.34/tomcat-embed-core-10.1.34.jar:/Users/ahmedfarahat/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.34/tomcat-embed-el-10.1.34.jar:/Users/ahmedfarahat/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.34/tomcat-embed-websocket-10.1.34.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/spring-web/6.2.1/spring-web-6.2.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/spring-beans/6.2.1/spring-beans-6.2.1.jar:/Users/ahmedfarahat/.m2/repository/io/micrometer/micrometer-observation/1.14.2/micrometer-observation-1.14.2.jar:/Users/ahmedfarahat/.m2/repository/io/micrometer/micrometer-commons/1.14.2/micrometer-commons-1.14.2.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/spring-webmvc/6.2.1/spring-webmvc-6.2.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/spring-aop/6.2.1/spring-aop-6.2.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/spring-context/6.2.1/spring-context-6.2.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/spring-expression/6.2.1/spring-expression-6.2.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/boot/spring-boot-devtools/3.4.1/spring-boot-devtools-3.4.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/boot/spring-boot/3.4.1/spring-boot-3.4.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.4.1/spring-boot-autoconfigure-3.4.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.4.1/spring-boot-starter-test-3.4.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/boot/spring-boot-test/3.4.1/spring-boot-test-3.4.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.4.1/spring-boot-test-autoconfigure-3.4.1.jar:/Users/ahmedfarahat/.m2/repository/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar:/Users/ahmedfarahat/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.jar:/Users/ahmedfarahat/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.jar:/Users/ahmedfarahat/.m2/repository/net/minidev/json-smart/2.5.1/json-smart-2.5.1.jar:/Users/ahmedfarahat/.m2/repository/net/minidev/accessors-smart/2.5.1/accessors-smart-2.5.1.jar:/Users/ahmedfarahat/.m2/repository/org/ow2/asm/asm/9.6/asm-9.6.jar:/Users/ahmedfarahat/.m2/repository/org/assertj/assertj-core/3.26.3/assertj-core-3.26.3.jar:/Users/ahmedfarahat/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/Users/ahmedfarahat/.m2/repository/org/awaitility/awaitility/4.2.2/awaitility-4.2.2.jar:/Users/ahmedfarahat/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/ahmedfarahat/.m2/repository/org/junit/jupiter/junit-jupiter/5.11.4/junit-jupiter-5.11.4.jar:/Users/ahmedfarahat/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.4/junit-jupiter-api-5.11.4.jar:/Users/ahmedfarahat/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/ahmedfarahat/.m2/repository/org/junit/platform/junit-platform-commons/1.11.4/junit-platform-commons-1.11.4.jar:/Users/ahmedfarahat/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/ahmedfarahat/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.4/junit-jupiter-params-5.11.4.jar:/Users/ahmedfarahat/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.11.4/junit-jupiter-engine-5.11.4.jar:/Users/ahmedfarahat/.m2/repository/org/junit/platform/junit-platform-engine/1.11.4/junit-platform-engine-1.11.4.jar:/Users/ahmedfarahat/.m2/repository/org/mockito/mockito-core/5.14.2/mockito-core-5.14.2.jar:/Users/ahmedfarahat/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.11/byte-buddy-agent-1.15.11.jar:/Users/ahmedfarahat/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/ahmedfarahat/.m2/repository/org/mockito/mockito-junit-jupiter/5.14.2/mockito-junit-jupiter-5.14.2.jar:/Users/ahmedfarahat/.m2/repository/org/skyscreamer/jsonassert/1.5.3/jsonassert-1.5.3.jar:/Users/ahmedfarahat/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/spring-core/6.2.1/spring-core-6.2.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/spring-jcl/6.2.1/spring-jcl-6.2.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/spring-test/6.2.1/spring-test-6.2.1.jar:/Users/ahmedfarahat/.m2/repository/org/xmlunit/xmlunit-core/2.10.0/xmlunit-core-2.10.0.jar:/Users/ahmedfarahat/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.2/jackson-databind-2.18.2.jar:/Users/ahmedfarahat/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.2/jackson-annotations-2.18.2.jar:/Users/ahmedfarahat/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.2/jackson-core-2.18.2.jar:"/>
+    <property name="https.proxyPort" value="8080"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="APPLICATION_NAME" value="MiniProject1"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="EG"/>
+    <property name="sun.boot.library.path" value="/Users/ahmedfarahat/Library/Java/JavaVirtualMachines/openjdk-23.0.2/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/ahmedfarahat/Downloads/Mini-Project1-Base-main/target/surefire/surefirebooter-20250225234207935_3.jar /Users/ahmedfarahat/Downloads/Mini-Project1-Base-main/target/surefire 2025-02-25T23-42-07_892-jvmRun1 surefire-20250225234207935_1tmp surefire_0-20250225234207935_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/ahmedfarahat/Downloads/Mini-Project1-Base-main/target/test-classes:/Users/ahmedfarahat/Downloads/Mini-Project1-Base-main/target/classes:/Users/ahmedfarahat/.m2/repository/org/springframework/boot/spring-boot-starter-data-rest/3.4.1/spring-boot-starter-data-rest-3.4.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/data/spring-data-rest-webmvc/4.4.1/spring-data-rest-webmvc-4.4.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/data/spring-data-rest-core/4.4.1/spring-data-rest-core-4.4.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/spring-tx/6.2.1/spring-tx-6.2.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/hateoas/spring-hateoas/2.4.1/spring-hateoas-2.4.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/data/spring-data-commons/3.4.1/spring-data-commons-3.4.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/plugin/spring-plugin-core/3.0.0/spring-plugin-core-3.0.0.jar:/Users/ahmedfarahat/.m2/repository/org/atteo/evo-inflector/1.3/evo-inflector-1.3.jar:/Users/ahmedfarahat/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.4.1/spring-boot-starter-web-3.4.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/boot/spring-boot-starter/3.4.1/spring-boot-starter-3.4.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.4.1/spring-boot-starter-logging-3.4.1.jar:/Users/ahmedfarahat/.m2/repository/ch/qos/logback/logback-classic/1.5.12/logback-classic-1.5.12.jar:/Users/ahmedfarahat/.m2/repository/ch/qos/logback/logback-core/1.5.12/logback-core-1.5.12.jar:/Users/ahmedfarahat/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.24.3/log4j-to-slf4j-2.24.3.jar:/Users/ahmedfarahat/.m2/repository/org/apache/logging/log4j/log4j-api/2.24.3/log4j-api-2.24.3.jar:/Users/ahmedfarahat/.m2/repository/org/slf4j/jul-to-slf4j/2.0.16/jul-to-slf4j-2.0.16.jar:/Users/ahmedfarahat/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/Users/ahmedfarahat/.m2/repository/org/yaml/snakeyaml/2.3/snakeyaml-2.3.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.4.1/spring-boot-starter-json-3.4.1.jar:/Users/ahmedfarahat/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.18.2/jackson-datatype-jdk8-2.18.2.jar:/Users/ahmedfarahat/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.18.2/jackson-datatype-jsr310-2.18.2.jar:/Users/ahmedfarahat/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.18.2/jackson-module-parameter-names-2.18.2.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.4.1/spring-boot-starter-tomcat-3.4.1.jar:/Users/ahmedfarahat/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.34/tomcat-embed-core-10.1.34.jar:/Users/ahmedfarahat/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.34/tomcat-embed-el-10.1.34.jar:/Users/ahmedfarahat/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.34/tomcat-embed-websocket-10.1.34.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/spring-web/6.2.1/spring-web-6.2.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/spring-beans/6.2.1/spring-beans-6.2.1.jar:/Users/ahmedfarahat/.m2/repository/io/micrometer/micrometer-observation/1.14.2/micrometer-observation-1.14.2.jar:/Users/ahmedfarahat/.m2/repository/io/micrometer/micrometer-commons/1.14.2/micrometer-commons-1.14.2.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/spring-webmvc/6.2.1/spring-webmvc-6.2.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/spring-aop/6.2.1/spring-aop-6.2.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/spring-context/6.2.1/spring-context-6.2.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/spring-expression/6.2.1/spring-expression-6.2.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/boot/spring-boot-devtools/3.4.1/spring-boot-devtools-3.4.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/boot/spring-boot/3.4.1/spring-boot-3.4.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.4.1/spring-boot-autoconfigure-3.4.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.4.1/spring-boot-starter-test-3.4.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/boot/spring-boot-test/3.4.1/spring-boot-test-3.4.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.4.1/spring-boot-test-autoconfigure-3.4.1.jar:/Users/ahmedfarahat/.m2/repository/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar:/Users/ahmedfarahat/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.jar:/Users/ahmedfarahat/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.jar:/Users/ahmedfarahat/.m2/repository/net/minidev/json-smart/2.5.1/json-smart-2.5.1.jar:/Users/ahmedfarahat/.m2/repository/net/minidev/accessors-smart/2.5.1/accessors-smart-2.5.1.jar:/Users/ahmedfarahat/.m2/repository/org/ow2/asm/asm/9.6/asm-9.6.jar:/Users/ahmedfarahat/.m2/repository/org/assertj/assertj-core/3.26.3/assertj-core-3.26.3.jar:/Users/ahmedfarahat/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/Users/ahmedfarahat/.m2/repository/org/awaitility/awaitility/4.2.2/awaitility-4.2.2.jar:/Users/ahmedfarahat/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/ahmedfarahat/.m2/repository/org/junit/jupiter/junit-jupiter/5.11.4/junit-jupiter-5.11.4.jar:/Users/ahmedfarahat/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.4/junit-jupiter-api-5.11.4.jar:/Users/ahmedfarahat/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/ahmedfarahat/.m2/repository/org/junit/platform/junit-platform-commons/1.11.4/junit-platform-commons-1.11.4.jar:/Users/ahmedfarahat/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/ahmedfarahat/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.4/junit-jupiter-params-5.11.4.jar:/Users/ahmedfarahat/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.11.4/junit-jupiter-engine-5.11.4.jar:/Users/ahmedfarahat/.m2/repository/org/junit/platform/junit-platform-engine/1.11.4/junit-platform-engine-1.11.4.jar:/Users/ahmedfarahat/.m2/repository/org/mockito/mockito-core/5.14.2/mockito-core-5.14.2.jar:/Users/ahmedfarahat/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.11/byte-buddy-agent-1.15.11.jar:/Users/ahmedfarahat/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/ahmedfarahat/.m2/repository/org/mockito/mockito-junit-jupiter/5.14.2/mockito-junit-jupiter-5.14.2.jar:/Users/ahmedfarahat/.m2/repository/org/skyscreamer/jsonassert/1.5.3/jsonassert-1.5.3.jar:/Users/ahmedfarahat/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/spring-core/6.2.1/spring-core-6.2.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/spring-jcl/6.2.1/spring-jcl-6.2.1.jar:/Users/ahmedfarahat/.m2/repository/org/springframework/spring-test/6.2.1/spring-test-6.2.1.jar:/Users/ahmedfarahat/.m2/repository/org/xmlunit/xmlunit-core/2.10.0/xmlunit-core-2.10.0.jar:/Users/ahmedfarahat/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.2/jackson-databind-2.18.2.jar:/Users/ahmedfarahat/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.2/jackson-annotations-2.18.2.jar:/Users/ahmedfarahat/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.2/jackson-core-2.18.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/ahmedfarahat"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/Users/ahmedfarahat/Library/Java/JavaVirtualMachines/openjdk-23.0.2/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="https.proxyHost" value="localhost"/>
+    <property name="basedir" value="/Users/ahmedfarahat/Downloads/Mini-Project1-Base-main"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="FILE_LOG_CHARSET" value="UTF-8"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/ahmedfarahat/Downloads/Mini-Project1-Base-main/target/surefire/surefirebooter-20250225234207935_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23.0.2+7-58"/>
+    <property name="user.name" value="ahmedfarahat"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/ahmedfarahat/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/20/0bbj6sqs7tvbrqp8xpjzswbw0000gn/T/"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="/Users/ahmedfarahat/Downloads/Mini-Project1-Base-main"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PID" value="95995"/>
+    <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ahmedfarahat/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.2+7-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
+    <property name="LOGGED_APPLICATION_NAME" value="[MiniProject1] "/>
+    <property name="http.proxyPort" value="8080"/>
+  </properties>
+  <testcase name="testGetUsersEndPoint" classname="com.example.MiniProject1.MiniProject1ApplicationTests" time="0.506">
+    <system-out><![CDATA[23:42:08.403 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.MiniProject1.MiniProject1ApplicationTests]: MiniProject1ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:42:08.501 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.MiniProject1.MiniProject1Application for test class com.example.MiniProject1.MiniProject1ApplicationTests
+23:42:08.553 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.1)
+
+2025-02-25T23:42:08.703+02:00  INFO 95995 --- [MiniProject1] [           main] c.e.M.MiniProject1ApplicationTests       : Starting MiniProject1ApplicationTests using Java 23.0.2 with PID 95995 (started by ahmedfarahat in /Users/ahmedfarahat/Downloads/Mini-Project1-Base-main)
+2025-02-25T23:42:08.704+02:00  INFO 95995 --- [MiniProject1] [           main] c.e.M.MiniProject1ApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T23:42:09.204+02:00  INFO 95995 --- [MiniProject1] [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-02-25T23:42:09.204+02:00  INFO 95995 --- [MiniProject1] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-02-25T23:42:09.205+02:00  INFO 95995 --- [MiniProject1] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-02-25T23:42:09.217+02:00  INFO 95995 --- [MiniProject1] [           main] c.e.M.MiniProject1ApplicationTests       : Started MiniProject1ApplicationTests in 0.67 seconds (process running for 1.242)
+]]></system-out>
+    <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (/Users/ahmedfarahat/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.11/byte-buddy-agent-1.15.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+  </testcase>
+  <testcase name="testGetCartByIdEndPoint" classname="com.example.MiniProject1.MiniProject1ApplicationTests" time="0.017"/>
+  <testcase name="testEmptyCartEndpoint" classname="com.example.MiniProject1.MiniProject1ApplicationTests" time="0.01"/>
+  <testcase name="testAddOrderEndPoint" classname="com.example.MiniProject1.MiniProject1ApplicationTests" time="0.011"/>
+  <testcase name="testApplyDiscountEndPoint" classname="com.example.MiniProject1.MiniProject1ApplicationTests" time="0.008"/>
+  <testcase name="testDeleteOrderByIdEndPoint" classname="com.example.MiniProject1.MiniProject1ApplicationTests" time="0.004"/>
+  <testcase name="testGetOrdersByUserIdEndPoint" classname="com.example.MiniProject1.MiniProject1ApplicationTests" time="0.008"/>
+  <testcase name="testDeleteProductByIdEndPoint1" classname="com.example.MiniProject1.MiniProject1ApplicationTests" time="0.007"/>
+  <testcase name="testAddUserEndPoint" classname="com.example.MiniProject1.MiniProject1ApplicationTests" time="0.005"/>
+  <testcase name="testGetCartsEndPoint" classname="com.example.MiniProject1.MiniProject1ApplicationTests" time="0.003"/>
+  <testcase name="testAddOrderToUserEndPoint" classname="com.example.MiniProject1.MiniProject1ApplicationTests" time="0.007"/>
+  <testcase name="testUpdateProductEndPoint" classname="com.example.MiniProject1.MiniProject1ApplicationTests" time="0.011">
+    <error message="Request processing failed: java.lang.NullPointerException: Cannot invoke &quot;Object.toString()&quot; because the return value of &quot;java.util.Map.get(Object)&quot; is null" type="jakarta.servlet.ServletException"><![CDATA[jakarta.servlet.ServletException: Request processing failed: java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "java.util.Map.get(Object)" is null
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1022)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:165)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:162)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:162)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:162)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:201)
+	at com.example.MiniProject1.MiniProject1ApplicationTests.testUpdateProductEndPoint(MiniProject1ApplicationTests.java:554)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+Caused by: java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "java.util.Map.get(Object)" is null
+	at com.example.controller.ProductController.updateProduct(ProductController.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	... 24 more
+]]></error>
+  </testcase>
+  <testcase name="testRemoveOrderOfUserEndPoint" classname="com.example.MiniProject1.MiniProject1ApplicationTests" time="0.005"/>
+  <testcase name="testGetProductByIdEndPoint" classname="com.example.MiniProject1.MiniProject1ApplicationTests" time="0.005"/>
+  <testcase name="testGetProductsEndPoint" classname="com.example.MiniProject1.MiniProject1ApplicationTests" time="0.003"/>
+  <testcase name="testAddProductEndPoint" classname="com.example.MiniProject1.MiniProject1ApplicationTests" time="0.004"/>
+  <testcase name="testDeleteProductFromCartEndPoint1" classname="com.example.MiniProject1.MiniProject1ApplicationTests" time="0.004"/>
+  <testcase name="testDeleteProductFromCartEndPoint2" classname="com.example.MiniProject1.MiniProject1ApplicationTests" time="0.005">
+    <failure message="Response content expected:&lt;Cart is empty&gt; but was:&lt;Product deleted from cart&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Response content expected:<Cart is empty> but was:<Product deleted from cart>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:61)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:128)
+	at org.springframework.test.web.servlet.result.ContentResultMatchers.lambda$string$4(ContentResultMatchers.java:148)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:214)
+	at com.example.MiniProject1.MiniProject1ApplicationTests.testDeleteProductFromCartEndPoint2(MiniProject1ApplicationTests.java:450)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></failure>
+    <system-out><![CDATA[
+MockHttpServletRequest:
+      HTTP Method = PUT
+      Request URI = /user/deleteProductFromCart
+       Parameters = {userId=[542a2b1d-f7ef-4e79-a9b0-811505317ab3], productId=[eab50610-ae29-4bec-8bd9-2c735193da42]}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.example.controller.UserController
+           Method = com.example.controller.UserController#deleteProductFromCart(UUID, UUID)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"text/plain;charset=UTF-8", Content-Length:"25"]
+     Content type = text/plain;charset=UTF-8
+             Body = Product deleted from cart
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteOrderByIdEndPoint2" classname="com.example.MiniProject1.MiniProject1ApplicationTests" time="0.004">
+    <error message="Request processing failed: java.lang.IllegalArgumentException: Order with ID 11765032-4fc5-485a-9e50-bea6b5b614c9 not found." type="jakarta.servlet.ServletException"><![CDATA[jakarta.servlet.ServletException: Request processing failed: java.lang.IllegalArgumentException: Order with ID 11765032-4fc5-485a-9e50-bea6b5b614c9 not found.
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1022)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:165)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:162)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:162)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:162)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:201)
+	at com.example.MiniProject1.MiniProject1ApplicationTests.testDeleteOrderByIdEndPoint2(MiniProject1ApplicationTests.java:742)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+Caused by: java.lang.IllegalArgumentException: Order with ID 11765032-4fc5-485a-9e50-bea6b5b614c9 not found.
+	at com.example.repository.OrderRepository.deleteOrderById(OrderRepository.java:62)
+	at com.example.service.OrderService.deleteOrderById(OrderService.java:38)
+	at com.example.controller.OrderController.deleteOrderById(OrderController.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	... 24 more
+]]></error>
+  </testcase>
+  <testcase name="testGetOrdersEndPoint" classname="com.example.MiniProject1.MiniProject1ApplicationTests" time="0.003"/>
+  <testcase name="testGetOrderByIdEndPoint" classname="com.example.MiniProject1.MiniProject1ApplicationTests" time="0.004"/>
+  <testcase name="testAddProductToCartEndPoint" classname="com.example.MiniProject1.MiniProject1ApplicationTests" time="0.003"/>
+  <testcase name="testAddCartEndPoint" classname="com.example.MiniProject1.MiniProject1ApplicationTests" time="0.005"/>
+  <testcase name="testDeleteCartByIdEndPoint" classname="com.example.MiniProject1.MiniProject1ApplicationTests" time="0.003"/>
+  <testcase name="testGetUserByIdEndPoint" classname="com.example.MiniProject1.MiniProject1ApplicationTests" time="0.004"/>
+  <testcase name="testDeleteUserByIdEndPoint1" classname="com.example.MiniProject1.MiniProject1ApplicationTests" time="0.005">
+    <failure message="Response content expected:&lt;User deleted successfully&gt; but was:&lt;user deleted succefully&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Response content expected:<User deleted successfully> but was:<user deleted succefully>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:61)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:128)
+	at org.springframework.test.web.servlet.result.ContentResultMatchers.lambda$string$4(ContentResultMatchers.java:148)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:214)
+	at com.example.MiniProject1.MiniProject1ApplicationTests.testDeleteUserByIdEndPoint1(MiniProject1ApplicationTests.java:464)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></failure>
+    <system-out><![CDATA[
+MockHttpServletRequest:
+      HTTP Method = DELETE
+      Request URI = /user/delete/914e170a-9030-409e-89d3-d4d98a0f52a6
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.example.controller.UserController
+           Method = com.example.controller.UserController#deleteUserById(UUID)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"text/plain;charset=UTF-8", Content-Length:"23"]
+     Content type = text/plain;charset=UTF-8
+             Body = user deleted succefully
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUserByIdEndPoint2" classname="com.example.MiniProject1.MiniProject1ApplicationTests" time="0.004">
+    <failure message="Response content expected:&lt;User not found&gt; but was:&lt;user deleted succefully&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Response content expected:<User not found> but was:<user deleted succefully>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:61)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:128)
+	at org.springframework.test.web.servlet.result.ContentResultMatchers.lambda$string$4(ContentResultMatchers.java:148)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:214)
+	at com.example.MiniProject1.MiniProject1ApplicationTests.testDeleteUserByIdEndPoint2(MiniProject1ApplicationTests.java:475)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></failure>
+    <system-out><![CDATA[
+MockHttpServletRequest:
+      HTTP Method = DELETE
+      Request URI = /user/delete/71f01a83-ded1-4cd2-85df-82c1c2ad6997
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.example.controller.UserController
+           Method = com.example.controller.UserController#deleteUserById(UUID)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"text/plain;charset=UTF-8", Content-Length:"23"]
+     Content type = text/plain;charset=UTF-8
+             Body = user deleted succefully
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  </testcase>
+</testsuite>
