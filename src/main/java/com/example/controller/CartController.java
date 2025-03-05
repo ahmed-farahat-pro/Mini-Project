@@ -3,6 +3,7 @@ package com.example.controller;
 import com.example.model.Cart;
 import com.example.model.Product;
 import com.example.service.CartService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -12,9 +13,10 @@ import java.util.UUID;
 @RequestMapping("/cart")
 public class CartController {
 
-    private final CartService cartService;
+    CartService cartService;
 
     // Constructor-based Dependency Injection
+    @Autowired
     public CartController(CartService cartService) {
         this.cartService = cartService;
     }
