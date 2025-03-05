@@ -5,6 +5,7 @@ import com.example.model.User;
 import com.example.service.CartService;
 import com.example.service.ProductService;
 import com.example.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -15,11 +16,12 @@ import java.util.UUID;
 @RequestMapping("/user")
 public class UserController {
 
-    private final UserService userService;
-    private final CartService cartService;
-    private final ProductService productService;
+    UserService userService;
+    CartService cartService;
+  ProductService productService;
 
     // Constructor-based Dependency Injection
+    @Autowired
     public UserController(UserService userService , CartService cartService,ProductService productService) {
         this.userService = userService;
         this.cartService = cartService;
