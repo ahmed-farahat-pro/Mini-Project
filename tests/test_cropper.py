@@ -9,10 +9,9 @@ from ai_video_crop.detector import Detection
 
 
 def _make_frame(w: int = 640, h: int = 480) -> np.ndarray:
-    """Create a test frame with known pixel values."""
-    frame = np.full((h, w, 3), fill_value=128, dtype=np.uint8)
-    # Add a colored rectangle in the center
-    frame[100:200, 100:200] = [255, 0, 0]  # Blue region
+    """Create a test frame with varied pixel values for realistic testing."""
+    rng = np.random.RandomState(42)
+    frame = rng.randint(0, 256, (h, w, 3), dtype=np.uint8)
     return frame
 
 
@@ -43,34 +42,32 @@ class TestVideoCropper:
         cropper = VideoCropper(CropConfig(mode="black", padding=0))
         det = _make_detection()
         result = cropper.crop_frame(frame, [det])
-        # The region should be all zeros
         roi = result[100:200, 100:200]
         assert np.all(roi == 0)
 
     def test_inpaint_mode(self):
         frame = _make_frame()
+        original = frame.copy()
         cropper = VideoCropper(CropConfig(mode="inpaint", padding=0))
         det = _make_detection()
         result = cropper.crop_frame(frame, [det])
-        # Inpainted region should differ from original blue
         roi = result[100:200, 100:200]
-        assert not np.array_equal(roi, frame[100:200, 100:200])
+        assert not np.array_equal(roi, original[100:200, 100:200])
 
     def test_cut_mode(self):
         frame = _make_frame()
+        original = frame.copy()
         cropper = VideoCropper(CropConfig(mode="cut", padding=0))
         det = _make_detection()
         result = cropper.crop_frame(frame, [det])
-        # The region should be filled with surrounding avg color
         roi = result[100:200, 100:200]
-        assert not np.array_equal(roi, frame[100:200, 100:200])
+        assert not np.array_equal(roi, original[100:200, 100:200])
 
     def test_padding_expands_region(self):
         frame = _make_frame()
         cropper = VideoCropper(CropConfig(mode="black", padding=20))
         det = _make_detection()
         result = cropper.crop_frame(frame, [det])
-        # Check that the padded area is also black
         assert np.all(result[80:220, 80:220] == 0)
 
     def test_multiple_detections(self):
