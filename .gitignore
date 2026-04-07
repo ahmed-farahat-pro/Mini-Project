@@ -40,3 +40,9 @@ Thumbs.db
 
 # Temporary files
 *.tmp
+
+# Demo output
+demo_output/
+
+# Pytest cache
+.pytest_cache/
